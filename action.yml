@@ -20,7 +20,6 @@ inputs:
     default: '{"labels": ["name"]}'
 outputs:
   time: # output will be available to future steps 
-    id: 'Airtable record ID'
 runs:
   using: 'node12'
   main: 'dist/index.js'
