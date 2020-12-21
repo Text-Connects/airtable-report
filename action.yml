@@ -1,4 +1,4 @@
-name: 'Airtable Report'
+name: 'Text Connects AirTable Requests'
 description: 'Collect Pull Request Statistic to Airtable'
 inputs:
   airtable-token:
