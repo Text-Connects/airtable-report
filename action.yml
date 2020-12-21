@@ -18,8 +18,6 @@ inputs:
     description: 'Traversal Json List item'
     required: false
     default: '{"labels": ["name"]}'
-outputs:
-  time: # output will be available to future steps 
 runs:
   using: 'node12'
   main: 'dist/index.js'
