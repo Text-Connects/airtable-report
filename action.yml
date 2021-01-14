@@ -13,7 +13,7 @@ inputs:
   airtable-picks:
     description: 'Expression to map PR json value into table column'
     required: false
-    default: '[["url"], ["title"], ["created_at"], ["merged_at"], ["labels"], ["comments"], ["review_comments"], ["commits"], ["additions"], ["deletions"], ["changed_files"]]'
+    default: '[["url"], ["title"], ["created_at"], ["merged_at"], ["labels"]]'
   airtable-traversal:
     description: 'Traversal Json List item'
     required: false
